@@ -1,9 +1,10 @@
+import GroupCard from "../components/GroupCard"
+
 export default function GroupPage() {
     return (
         <>
-            <div className="card box-border size-32 border-4 p-4">
-                hi
-            </div>
+            <GroupCard groupName= "group_name"
+                members={5} />
         </>
     )
 }
