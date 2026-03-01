@@ -1,7 +1,6 @@
 export default function GroupCard({ groupName, members }) {
     return (
-
-        <div className="bg-white m-10 p-6 rounded-xl shadow-md w-50 h-60 hover:scale-103 transition cursor-pointer">
+        <div className="bg-[#98e57c] m-10 p-6 rounded-xl shadow-md w-50 h-60 hover:scale-103 transition cursor-pointer">
 
             <h2 className="text-xl font-bold">
                 {groupName}

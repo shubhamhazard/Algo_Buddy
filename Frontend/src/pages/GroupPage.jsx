@@ -1,10 +1,9 @@
-import GroupCard from "../components/GroupCard"
+import GroupCards from '../components/GroupCards.jsx';
 
 export default function GroupPage() {
     return (
         <>
-            <GroupCard groupName= "group_name"
-                members={5} />
+            <GroupCards/>
         </>
     )
 }

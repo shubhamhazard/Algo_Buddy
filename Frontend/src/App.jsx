@@ -2,6 +2,7 @@
 import './index.css'
 import GroupPage from './pages/GroupPage.jsx'
 
+
 function Navbar() {
   return (
     <nav className="bg-gray-800 text-white p-4">
@@ -19,7 +20,7 @@ function App() {
     <>
       <Navbar />
       <h1 className="text-4xl font-bold text-blue-600">
-        Tailwind Working 
+          Choose your group
       </h1>
       <GroupPage />
     </>
